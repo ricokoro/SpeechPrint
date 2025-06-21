@@ -1,4 +1,4 @@
-# SpeechPrint
+# SpeechPrint (Long Short-Term Memory Machine Learning Model)
 
 **SpeechPrint** is a machine learning project that analyzes how native language and geographic background influence the way people speak English. Using an LSTM model trained on MFCC features from speech recordings, the model attempts to classify the speaker’s country of origin based on their English speech.
 
