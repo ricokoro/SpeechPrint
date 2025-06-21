@@ -54,7 +54,7 @@ SpeechPrint can help us understand how global accents shape spoken English and o
 - **Baseline MLP on averaged MFCCs** achieved ~20 % accuracy over 17 regional classes (vs. ~5.9 % random).  
 - **LSTM on full MFCC sequences** improved to ~26 % validation accuracy, confirming that temporal patterns boost performance.  
 - **Key challenges** included severe class imbalance and subtle inter-accent variations, which were addressed through stratified splits, weighted sampling, learning-rate scheduling, and early stopping.
-- **Confusion Matrix - **
+- **Confusion Matrix -**
   - <img width="783" alt="Screenshot 2025-06-21 at 2 42 41 PM" src="https://github.com/user-attachments/assets/e81fa4da-8ddf-4aba-b145-68d859ec6e88" />
 
 - **Next steps** (to revisit later):
