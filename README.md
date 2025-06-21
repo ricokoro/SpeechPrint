@@ -45,14 +45,33 @@ SpeechPrint can help us understand how global accents shape spoken English and o
 - Linguistic research  
 - Language education tools
 
+---
+
+## 📊 Conclusion & Current Findings
+
+**SpeechPrint** demonstrates a full end-to-end audio classification pipeline and serves as a proof-of-concept for accent-origin detection:
+
+- **Baseline MLP on averaged MFCCs** achieved ~20 % accuracy over 17 regional classes (vs. ~5.9 % random).  
+- **LSTM on full MFCC sequences** improved to ~26 % validation accuracy, confirming that temporal patterns boost performance.  
+- **Key challenges** included severe class imbalance and subtle inter-accent variations, which were addressed through stratified splits, weighted sampling, learning-rate scheduling, and early stopping.  
+- **Next steps** (to revisit later):
+  - Integrate pretrained audio embeddings (e.g., Wav2Vec2) for a rapid accuracy boost  
+  - Augment data via noise injection or time–frequency transformations  
+  - Experiment with CNN-LSTM hybrids or bidirectional LSTMs  
+  - Refine region groupings or oversample under-represented classes  
+
+---
 
 ## Dataset Insights
 
-Top native languages are English, Spanish, Arabic
+**The top native languages are English, Spanish, Arabic.**
+
 <img width="1013" alt="Screenshot 2025-03-04 at 4 18 14 PM" src="https://github.com/user-attachments/assets/e0056067-194e-43bc-a3e8-b385c2e897c3" />
+
+**Top countries of origin are USA, China, UK -**
 <img width="1013" alt="Screenshot 2025-03-04 at 4 18 49 PM" src="https://github.com/user-attachments/assets/eeafe2ef-5906-4e1a-a627-a3cf64459c94" />
 
-Top countries of origin are USA, China, UK
+
 <img width="1008" alt="Screenshot 2025-03-04 at 4 19 42 PM" src="https://github.com/user-attachments/assets/44d37d83-9230-41a7-b7ed-27912a1ca9a0" />
 <img width="1020" alt="Screenshot 2025-03-04 at 4 20 09 PM" src="https://github.com/user-attachments/assets/20796af7-7b72-43e5-bcbf-8eed496d41b9" />
 
