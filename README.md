@@ -33,7 +33,7 @@ The dataset includes:
 - Librosa (audio feature extraction)  
 - Pandas / NumPy (data handling)  
 - scikit-learn (data preprocessing and evaluation)  
-- PyTorch or TensorFlow (LSTM model)
+- PyTorch (LSTM model)
 
 ---
 
