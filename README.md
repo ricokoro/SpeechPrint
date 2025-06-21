@@ -62,6 +62,32 @@ SpeechPrint can help us understand how global accents shape spoken English and o
 
 ---
 
+## 🚀 How to Open & Run SpeechPrint
+
+### Open in Google Colab
+
+1. **Navigate to the Colab “Open” dialog**  
+   - Go to:  
+     ```
+     https://colab.research.google.com
+     ```  
+   - Click **File → Open notebook…**  
+
+2. **Load from GitHub**  
+   - Select the **GitHub** tab  
+   - Paste the repository URL:  
+     ```
+     https://github.com/ricokoro/SpeechPrint
+     ```  
+   - Press **Enter** or click the search icon  
+   - In the list of notebooks, click on **SpeechPrint.ipynb**
+
+3. **Run all cells**  
+   - Once the notebook loads, go to **Runtime → Run all**  
+   - Colab will install any dependencies, download data if needed, and execute every cell in order  
+
+---
+
 ## Dataset Insights
 
 **Top countries of origin are USA, China, UK -**
@@ -70,8 +96,8 @@ SpeechPrint can help us understand how global accents shape spoken English and o
 
 
 **The top native languages are English, Spanish, Arabic.**
-<img width="1008" alt="Screenshot 2025-03-04 at 4 19 42 PM" src="https://github.com/user-attachments/assets/44d37d83-9230-41a7-b7ed-27912a1ca9a0" />
 <img width="1020" alt="Screenshot 2025-03-04 at 4 20 09 PM" src="https://github.com/user-attachments/assets/20796af7-7b72-43e5-bcbf-8eed496d41b9" />
+<img width="1008" alt="Screenshot 2025-03-04 at 4 19 42 PM" src="https://github.com/user-attachments/assets/44d37d83-9230-41a7-b7ed-27912a1ca9a0" />
 
 **Gender Breakdown -**
 <img width="1004" alt="Screenshot 2025-03-04 at 4 19 16 PM" src="https://github.com/user-attachments/assets/811eb6c7-e9d5-4aee-ba0e-59eb7b264e69" />
